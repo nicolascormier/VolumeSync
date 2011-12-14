@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03095B0914968BCE0073B541 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03095B0814968BCE0073B541 /* ScriptingBridge.framework */; };
+		03B2F7DC149934B50062BC76 /* 65-note.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B2F7DB149934B50062BC76 /* 65-note.png */; };
+		03B523E21497D888006D69E9 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BA0B72149520AF0075FB5D /* CoreAudio.framework */; };
+		03BA0B541495148C0075FB5D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BA0B531495148C0075FB5D /* Cocoa.framework */; };
+		03BA0B5E1495148C0075FB5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03BA0B5C1495148C0075FB5D /* InfoPlist.strings */; };
+		03BA0B601495148C0075FB5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BA0B5F1495148C0075FB5D /* main.m */; };
+		03BA0B671495148C0075FB5D /* VSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BA0B661495148C0075FB5D /* VSAppDelegate.m */; };
+		03BA0B6A1495148D0075FB5D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BA0B681495148D0075FB5D /* MainMenu.xib */; };
+		03BA0B75149520C00075FB5D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BA0B74149520C00075FB5D /* AudioToolbox.framework */; };
+		03D728B314993B1C00A00E61 /* 65-note-inv.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D728B214993B1C00A00E61 /* 65-note-inv.png */; };
+		03D728B714993DE500A00E61 /* Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D728B614993DE500A00E61 /* Deprecated.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03095B0614968A900073B541 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		03095B0814968BCE0073B541 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		03B2F7DB149934B50062BC76 /* 65-note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "65-note.png"; sourceTree = "<group>"; };
+		03BA0B4F1495148C0075FB5D /* VolumeSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BA0B531495148C0075FB5D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03BA0B561495148C0075FB5D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03BA0B571495148C0075FB5D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03BA0B581495148C0075FB5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03BA0B5B1495148C0075FB5D /* VolumeSync-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VolumeSync-Info.plist"; sourceTree = "<group>"; };
+		03BA0B5D1495148C0075FB5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03BA0B5F1495148C0075FB5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03BA0B611495148C0075FB5D /* VolumeSync-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VolumeSync-Prefix.pch"; sourceTree = "<group>"; };
+		03BA0B651495148C0075FB5D /* VSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSAppDelegate.h; sourceTree = "<group>"; };
+		03BA0B661495148C0075FB5D /* VSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSAppDelegate.m; sourceTree = "<group>"; };
+		03BA0B691495148D0075FB5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03BA0B72149520AF0075FB5D /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		03BA0B74149520C00075FB5D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		03D728B214993B1C00A00E61 /* 65-note-inv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "65-note-inv.png"; sourceTree = "<group>"; };
+		03D728B614993DE500A00E61 /* Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deprecated.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03BA0B4C1495148C0075FB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B523E21497D888006D69E9 /* CoreAudio.framework in Frameworks */,
+				03095B0914968BCE0073B541 /* ScriptingBridge.framework in Frameworks */,
+				03BA0B75149520C00075FB5D /* AudioToolbox.framework in Frameworks */,
+				03BA0B541495148C0075FB5D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B2F7CD1499307B0062BC76 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				03D728B214993B1C00A00E61 /* 65-note-inv.png */,
+				03B2F7DB149934B50062BC76 /* 65-note.png */,
+			);
+			name = Res;
+			sourceTree = "<group>";
+		};
+		03BA0B441495148C0075FB5D = {
+			isa = PBXGroup;
+			children = (
+				03095B0814968BCE0073B541 /* ScriptingBridge.framework */,
+				03BA0B74149520C00075FB5D /* AudioToolbox.framework */,
+				03BA0B72149520AF0075FB5D /* CoreAudio.framework */,
+				03BA0B591495148C0075FB5D /* VolumeSync */,
+				03BA0B521495148C0075FB5D /* Frameworks */,
+				03BA0B501495148C0075FB5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03BA0B501495148C0075FB5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03BA0B4F1495148C0075FB5D /* VolumeSync.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03BA0B521495148C0075FB5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03BA0B531495148C0075FB5D /* Cocoa.framework */,
+				03BA0B551495148C0075FB5D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03BA0B551495148C0075FB5D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03BA0B561495148C0075FB5D /* AppKit.framework */,
+				03BA0B571495148C0075FB5D /* CoreData.framework */,
+				03BA0B581495148C0075FB5D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03BA0B591495148C0075FB5D /* VolumeSync */ = {
+			isa = PBXGroup;
+			children = (
+				03B2F7CD1499307B0062BC76 /* Res */,
+				03095B0614968A900073B541 /* iTunes.h */,
+				03BA0B651495148C0075FB5D /* VSAppDelegate.h */,
+				03BA0B661495148C0075FB5D /* VSAppDelegate.m */,
+				03D728B614993DE500A00E61 /* Deprecated.m */,
+				03BA0B681495148D0075FB5D /* MainMenu.xib */,
+				03BA0B5A1495148C0075FB5D /* Supporting Files */,
+			);
+			path = VolumeSync;
+			sourceTree = "<group>";
+		};
+		03BA0B5A1495148C0075FB5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03BA0B5B1495148C0075FB5D /* VolumeSync-Info.plist */,
+				03BA0B5C1495148C0075FB5D /* InfoPlist.strings */,
+				03BA0B5F1495148C0075FB5D /* main.m */,
+				03BA0B611495148C0075FB5D /* VolumeSync-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03BA0B4E1495148C0075FB5D /* VolumeSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BA0B6D1495148D0075FB5D /* Build configuration list for PBXNativeTarget "VolumeSync" */;
+			buildPhases = (
+				03BA0B4B1495148C0075FB5D /* Sources */,
+				03BA0B4C1495148C0075FB5D /* Frameworks */,
+				03BA0B4D1495148C0075FB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolumeSync;
+			productName = VolumeSync;
+			productReference = 03BA0B4F1495148C0075FB5D /* VolumeSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03BA0B461495148C0075FB5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 03BA0B491495148C0075FB5D /* Build configuration list for PBXProject "VolumeSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03BA0B441495148C0075FB5D;
+			productRefGroup = 03BA0B501495148C0075FB5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03BA0B4E1495148C0075FB5D /* VolumeSync */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03BA0B4D1495148C0075FB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BA0B5E1495148C0075FB5D /* InfoPlist.strings in Resources */,
+				03BA0B6A1495148D0075FB5D /* MainMenu.xib in Resources */,
+				03B2F7DC149934B50062BC76 /* 65-note.png in Resources */,
+				03D728B314993B1C00A00E61 /* 65-note-inv.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03BA0B4B1495148C0075FB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BA0B601495148C0075FB5D /* main.m in Sources */,
+				03BA0B671495148C0075FB5D /* VSAppDelegate.m in Sources */,
+				03D728B714993DE500A00E61 /* Deprecated.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03BA0B5C1495148C0075FB5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03BA0B5D1495148C0075FB5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03BA0B681495148D0075FB5D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03BA0B691495148D0075FB5D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03BA0B6B1495148D0075FB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03BA0B6C1495148D0075FB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03BA0B6E1495148D0075FB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VolumeSync/VolumeSync-Prefix.pch";
+				INFOPLIST_FILE = "VolumeSync/VolumeSync-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03BA0B6F1495148D0075FB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VolumeSync/VolumeSync-Prefix.pch";
+				INFOPLIST_FILE = "VolumeSync/VolumeSync-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03BA0B491495148C0075FB5D /* Build configuration list for PBXProject "VolumeSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BA0B6B1495148D0075FB5D /* Debug */,
+				03BA0B6C1495148D0075FB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03BA0B6D1495148D0075FB5D /* Build configuration list for PBXNativeTarget "VolumeSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BA0B6E1495148D0075FB5D /* Debug */,
+				03BA0B6F1495148D0075FB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03BA0B461495148C0075FB5D /* Project object */;
+}
