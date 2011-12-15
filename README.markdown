@@ -1,11 +1,9 @@
 
 VolumeSync
 ==========
-VolumeSync keeps OSX's systemwide volume and iTunes' volume synchorized.
+VolumeSync keeps OSX's systemwide volume and iTunes' volume synchorized. Particularly handy if you use iTunes to stream music to multiple airplay devices and want to use a single remote control.
 
-Particular handy if you use iTunes to stream music to multiple airplay devices and want to use a single remote control.
-
- 
+[Compiled application.](https://github.com/nicolascormier/VolumeSync/raw/master/VolumeSync.app.zip)
 
 References
 ----------
